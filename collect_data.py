@@ -54,7 +54,7 @@ if __name__ == "__main__":
     
     runs = []
     for _ in range(10):
-        print("main")
+        print("main2")
         runs.append(randomRun(encoded=False, sparse=False))
     with open("output_file.pickle", "wb") as f:
         pickle.dump(runs, f)
